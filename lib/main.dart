@@ -31,6 +31,14 @@ class BusinessCardApp extends StatelessWidget {
                 backgroundImage: AssetImage('assets/mahmoud.png'),
               ),
             ),
+            Text(
+              'Mahmoud Nairat',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 25,
+                fontFamily: 'Pacifico',
+              ),
+            ),
           ],
         ),
       ),
