@@ -48,7 +48,7 @@ class BusinessCardApp extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
               child: Container(
                   height: 65,
                   decoration: BoxDecoration(
@@ -58,33 +58,39 @@ class BusinessCardApp extends StatelessWidget {
                   child: const Row(
                     children: [
                       //Here at the first I can remove Spacer() and wrap icon widget with padding widget and make padding left ex 16
-                      Spacer(
-                        flex: 1,
-                      ),
-                      Icon(
-                        Icons.phone,
-                        size: 32,
-                        color: Color(0xff2B475e),
-                      ),
-                      Spacer(
-                        flex: 1,
-                      ), //This widget make space between two widgets inside row or column.
-                      Text(
-                        '(+972) 597323291',
-                        style: TextStyle(
+                      // Spacer(
+                      //   flex: 1,
+                      // ),
+                      Padding(
+                        padding: EdgeInsets.only(left: 16.0),
+                        child: Icon(
+                          Icons.phone,
+                          size: 32,
                           color: Color(0xff2B475e),
-                          fontSize: 20,
                         ),
                       ),
-                      Spacer(
-                        flex: 3,
+                      // Spacer(
+                      //   flex: 1,
+                      // ), //This widget make space between two widgets inside row or column.
+                      Padding(
+                        padding: EdgeInsets.only(left: 18.0),
+                        child: Text(
+                          '(+972) 597323291',
+                          style: TextStyle(
+                            color: Color(0xff2B475e),
+                            fontSize: 20,
+                          ),
+                        ),
                       ),
+                      // Spacer(
+                      //   flex: 3,
+                      // ),
                     ],
                   ),
                 ),
             ),
             Padding(
-              padding: const EdgeInsets.all(16.0),
+              padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
               child: Container(
                   height: 65,
                   decoration: BoxDecoration(
@@ -93,27 +99,23 @@ class BusinessCardApp extends StatelessWidget {
                   ),
                   child: const Row(
                     children: [
-                      //Here at the first I can remove Spacer() and wrap icon widget with padding widget and make padding left ex 16
-                      Spacer(
-                        flex: 1,
-                      ),
-                      Icon(
-                        Icons.mail,
-                        size: 32,
-                        color: Color(0xff2B475e),
-                      ),
-                      Spacer(
-                        flex: 1,
-                      ), //This widget make space between two widgets inside row or column.
-                      Text(
-                        'mahmoud.a.nairat@gmail.com',
-                        style: TextStyle(
+                      Padding(
+                        padding: EdgeInsets.only(left: 16.0),
+                        child: Icon(
+                          Icons.mail,
+                          size: 32,
                           color: Color(0xff2B475e),
-                          fontSize: 20,
                         ),
                       ),
-                      Spacer(
-                        flex: 3,
+                      Padding(
+                        padding: EdgeInsets.only(left: 18.0),
+                        child: Text(
+                          'mahmoud.a.nairat@gmail.com',
+                          style: TextStyle(
+                            color: Color(0xff2B475e),
+                            fontSize: 20,
+                          ),
+                        ),
                       ),
                     ],
                   ),
