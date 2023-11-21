@@ -10,6 +10,7 @@ class BusinessCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: const Color(0xff2B475e),
         body: Column(
