@@ -13,6 +13,7 @@ class BusinessCardApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: const Color(0xff2B475e),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // ClipRRect(
             //   borderRadius: BorderRadius.circular(999),
@@ -24,10 +25,10 @@ class BusinessCardApp extends StatelessWidget {
             //   ),
             // ),
             const CircleAvatar(
-              radius: 122,
+              radius: 112,
               backgroundColor: Colors.white,
               child: CircleAvatar(
-                radius: 120,
+                radius: 110,
                 backgroundImage: AssetImage('assets/mahmoud.png'),
               ),
             ),
@@ -46,6 +47,13 @@ class BusinessCardApp extends StatelessWidget {
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
+            ),
+            const Divider(
+              color: Color(0xFF6c8890),
+              thickness: 1,
+              endIndent: 60,
+              indent: 60,
+              height: 10,
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
