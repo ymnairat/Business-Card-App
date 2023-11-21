@@ -101,3 +101,5 @@ class BusinessCardApp extends StatelessWidget {
 
 //Padding widget is like margin attribute inside container.
 //When use padding attribute inside container it's make padding for children.
+//When use const if the widget re-build the widget that have const will not be re-build.
+//const key word must use with const constructor.
