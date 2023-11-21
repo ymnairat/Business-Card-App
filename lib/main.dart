@@ -29,8 +29,11 @@ class BusinessCardApp extends StatelessWidget {
               backgroundColor: Colors.white,
               child: CircleAvatar(
                 radius: 110,
-                backgroundImage: AssetImage('assets/mahmoud.png'),
+                backgroundImage: AssetImage('assets/yusuf.jpg'),
               ),
+            ),
+            const SizedBox(
+              height: 15,
             ),
             const Text(
               'Mahmoud Nairat',
