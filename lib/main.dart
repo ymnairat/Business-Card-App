@@ -135,3 +135,7 @@ class BusinessCardApp extends StatelessWidget {
     );
   }
 }
+
+
+//Padding widget is like margin attribute inside container.
+//When use padding attribute inside container it's make padding for children.
